@@ -1,0 +1,8 @@
+### Test Course Generator API
+POST http://127.0.0.1:8000/generate_course
+Content-Type: application/json
+
+{
+  "brief": "A microfinance course for beginners",
+  "target_audience": "College students with no financial background"
+}
